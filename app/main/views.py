@@ -16,4 +16,4 @@ def about(request):
         'text_on_page': ''
     }
 
-    return render(request, 'main/index.html', context)
+    return render(request, 'main/about.html', context)
